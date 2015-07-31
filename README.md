@@ -1,6 +1,4 @@
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=wernancheta&url=https://github.com/anchetaWern/portfolio-jekyll-plugin&title=portfolio-jekyll&language=ruby&tags=github&category=software)
-
-portfolio-jekyll-plugin
+jekyll-portfolio-plugin
 =======================
 
 This Jekyll Plugin is used for easily rendering images 
@@ -26,18 +24,18 @@ Copy `portfolio.rb` into your `plugins` directory.
 Next, add the following to your `_config.yml` file. Mine looks like this, but you have to modify the paths to match yours:
 
 ```
-portfolio_root: /projects
-portfolio_path: /media/wern/Files/files/octopress/source/images/pages/projects
-portfolio_img_root: /images/pages/projects
+portfolio_root: /portfolio
+portfolio_path: /filesystem/path/project/portfolio
+portfolio_img_root: /portfolio/images
 ```
 
 The `portfolio_root` is the path that points out to your portfolio when you accessed your blog from the browser.
 
-The `portfolio_path` is the actual path in your filesystem where the images for your portfolio is stored. 
+The `portfolio_path` is the actual path in your filesystem where the files for your portfolio are stored. 
 
-The `portfolio_img_root` is the path that points out to where the images for your portfolio are.
+The `portfolio_img_root` is the path that points to the location of the images for your portfolio.
 
-Next, add the contents of the `Rakefile` in this repository to your `Rakefile`. Note that you can modify the portfolio directory, by default its named `portfolio`:
+Next, add the contents of the `Rakefile` in this repository to your own `Rakefile`. Note that you can modify the portfolio directory, by default, it is named `portfolio`:
 
 ```
 portfolio_dir = "portfolio"
