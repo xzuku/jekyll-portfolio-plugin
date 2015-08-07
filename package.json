@@ -11,14 +11,14 @@
     "url": "https://github.com/xzuku/jekyll-portfolio-plugin/issues"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": ">=0.10.x"
   },
   "devDependencies": {
-    "gulp": "3.9.x",
-    "gulp-copy": "0.x.x",
-    "gulp-image-resize": "0.6.x",
-    "gulp-imagemin": "2.3.x",
-    "gulp-rename": "1.2.x",
-    "del": "1.2.x"
+    "gulp": ">=3.9.x",
+    "gulp-copy": ">=0.x.x",
+    "gulp-image-resize": ">=0.6.x",
+    "gulp-imagemin": ">=2.3.x",
+    "gulp-rename": ">=1.2.x",
+    "del": ">=1.2.x"
   }
 }
