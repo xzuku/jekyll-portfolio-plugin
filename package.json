@@ -2,7 +2,7 @@
   "name": "jekyll-portfolio-plugin",
   "version": "0.0.1",
   "description": "A portfolio plugin for Jekyll with Gulp.",
-  "author": "Xzuku <xz@afst.pro>",  "homepage": "http://xzuku.github.io/jekyll-portfolio-plugin/",
+  "author": "Xzuku <xz@afst.pro>",  "homepage": "http://xzuku.github.io/jekyll-portfolio-plugin",
   "repository": {
     "type": "git",
     "url": "git://github.com/xzuku/jekyll-portfolio-plugin.git"
@@ -11,14 +11,14 @@
     "url": "https://github.com/xzuku/jekyll-portfolio-plugin/issues"
   },
   "engines": {
-    "node": ">=0.10.x"
+    "node": ">=0.10.0"
   },
   "devDependencies": {
-    "gulp": ">=3.9.x",
-    "gulp-copy": ">=0.x.x",
-    "gulp-image-resize": ">=0.6.x",
-    "gulp-imagemin": ">=2.3.x",
-    "gulp-rename": ">=1.2.x",
-    "del": ">=1.2.x"
+    "gulp": ">=3.9.0",
+    "gulp-copy": ">=0.0.2",
+    "gulp-image-resize": ">=0.6.0",
+    "gulp-imagemin": ">=2.3.0",
+    "gulp-rename": ">=1.2.2",
+    "del": ">=1.2.0"
   }
 }
